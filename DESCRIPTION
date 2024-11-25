@@ -1,11 +1,17 @@
 Package: RpackageDeployed
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Example of deployed shiny app from a R package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Nicolas Enjalbert Courrech
+Maintainer: Nicolas Enjalbert Courrech <nicolas.enjalbert-courrech@math.univ-toulouse.fr>
+Description: Light R package containing a Rshiny app used as example to deploy it on CNRS' servers.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    datasets,
+    graphics,
+    grDevices,
+    shiny,
+    stats
+RoxygenNote: 7.3.2
